@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/ahammond/ipcheck/cmd"
+import "github.com/AnchorFree/ipcheck/cmd"
 
 func main() {
 	cmd.Execute()

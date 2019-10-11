@@ -6,7 +6,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.9
-    working_directory: /go/src/github.com/ahammond/ipcheck
+    working_directory: /go/src/github.com/AnchorFree/ipcheck
     environment:
       DEP_VERSION: "0.5.0"
       GHR_VERSION: "0.10.2"

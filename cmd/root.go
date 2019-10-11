@@ -23,7 +23,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/ahammond/ipcheck/pkg"
+	"github.com/AnchorFree/ipcheck/pkg"
 )
 
 var cfgFile string
@@ -42,6 +42,7 @@ var rootCmd = &cobra.Command{
 	Short:   "Given an IP, describe it as either public, private, loopback, multicast, etc.",
 	Long:    ``,
 	Version: Version,
+	Args: cobra.MinimumNArgs(1),
 	Run:     mainRun,
 }
 
